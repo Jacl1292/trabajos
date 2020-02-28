@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Payment form example</h3>
+                    </div>
+                    <div class="card-body" >
+                     <div class="row">
+                         <div class="col-12">
+                            <div class="alert alert-danger" role="alert">
+                            Some files are missing
+                            </div>
+                         </div>
+                     </div>
+
+
+                     <div class="form-row">
+                        <div class="form-group col-sm-12 col-md-6 col-lg-5">
+                          <label for="inputTel4">Card #</label>
+                          <input type="tel" class="form-control" id="card" placeholder="xxxxxx">
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                          <label for="inputTel4">CVC#</label>
+                          <input type="tel" class="form-control" id="CVC" placeholder="0000">
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6 col-lg-4">
+                            <label for="inputText4">Amount</label>
+                            <input type="text" class="form-control" id="amount" placeholder="Amount">
+                          </div>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                          <label for="inputName">First Name</label>
+                          <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                            <label for="inputName2">Second Name</label>
+                            <input type="text" class="form-control" id="inputName2">
+                          </div>
+                      </div>
+
+
+                     
+                      <div class="form-row">
+                        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+                          <label for="inputCity">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group  col-sm-12 col-md-6 col-lg-3">
+                          <label for="inputState">State</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Pick a state...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                          <label for="inputCod">Postal Code</label>
+                          <input type="tel" class="form-control" id="inputcod">
+                        </div>
+                      </div>
+
+                      <div class="form-row">
+                         <div class="form-group col-sm-12 col-md-6 col-lg-6">
+                            <label for="inputCity" class="form-label">We acept
+                          <div class="form-check">
+                           <input type="radio" id="radio" name="radio1" checked><i class="fab fa-cc-mastercard"></i>
+                           <input type="radio" id="radio" name="radio1"><i class="fab fa-cc-visa"></i>
+                           <input type="radio" id="radio" name="radio1"><i class="fab fa-cc-diners-club"></i>
+                           <input type="radio" id="radio" name="radio1"><i class="fab fa-cc-amex"></i>
+                          </div>
+                        </label>
+                         </div>
+                         <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+                            <label for="inputmessege">messege</label>
+                            <textarea name="opinion" id="" cols="" rows="6" class="form-control"></textarea>
+                            <small id="passwordHelpBlock" class="form-text text-muted">
+                                Adds any notes hear
+                              </small>
+                         </div>
+                      </div>
+
+
+
+                    </div>
+                
+                           
+                      <div class="card-footer d-flex justify-content-end">
+                        
+                          <button type="button" class="btn btn-secondary mr-2">cancel</button>
+                          <button type="submit" class="btn btn-primary">Send</button>
+                       
+                      </div>      
+                    
+              </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.col{
+    background-color:ghostwhite;
+}
+.insta{
+    background-color: white;
+    height: 370px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.instahead{
+   
+    display: block;
+    height: 40px;
+    font-size: 10px;
+}
+.instaheadleft{
+    display: block;
+    float: left;
+    margin: 0 15px;
+}
+  
+.instahead i{
+    float: right;
+    margin: 0 10px;
+    font-size: medium;
+}
+
+.bloq-text{
+    float: right;
+    
+}
+.bloq-text h2{
+    font-size: 1rem;
+}
+.bloq-text h2:nth-child(2){
+   margin: 0;
+}
+.instaimg{
+  
+  width: 100%;
+  margin: 0;
+}
+.instaimg img{
+    object-fit: cover;
+    
+    width: 100%; 
+    margin: 0;
+}
+.instareac{
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+
+}
+
+
+.instatext{
+    margin: 15px;
+}
+img{
+    margin-top: 10px;
+}
+.navbar-brand{
+    font-style: italic;
+    font-size: x-large;
+}
